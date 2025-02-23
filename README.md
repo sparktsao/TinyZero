@@ -1,5 +1,5 @@
 # TinyZero - ScamR1: Reasoning but Don't Think Too Much  
-![image](cover.png)  
+![image](cover_scam.png)  
 
 TinyZero - ScamR1 extends [TinyZero](https://github.com/Jiayi-Pan/TinyZero) into **SCAM reasoning and detection**, enhancing cybersecurity applications.  
 
