@@ -28,8 +28,11 @@ In this work, we extend [TinyZero](https://github.com/Jiayi-Pan/TinyZero) to **S
 
 ### 2️⃣ Results & Observations  
 - **Validation confirms no overfitting.**  
+![image](val.png)  
 - **Significant improvements observed within the first 200 steps**, particularly in **format alignment**.  
+![image](critic_score.png)  
 - **Response length stabilizes at ~150 tokens** after an initial reduction.  
+![image](response_length.png)  
 
 ## ⚙️ Installation  
 
@@ -64,6 +67,10 @@ export VLLM_ATTENTION_BACKEND=XFORMERS
 
 bash ./scripts/train_tiny_zero.sh  
 ```
+
+### Conclusion
+- data matters, we need the quality data labels
+- the reasoning process need more evaluation
 
 ## 🔗 Acknowledgments  
 
